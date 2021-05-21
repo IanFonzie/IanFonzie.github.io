@@ -1,0 +1,8 @@
+.feature-slide {
+  animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+  from {opacity: .5}
+  to {opacity: 1}
+}
