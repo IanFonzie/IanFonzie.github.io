@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <script src="scripts/contact.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="index.html">
+        Victoria Plant Shop
+      </a>
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="care.html">Plant Care</a>
+        </li>
+        <li>
+          <a href="sales.html">For Sale</a>
+        </li>
+        <li>
+          <a href="contact.html" class="active-page">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="container">
+    <main id="contact">
+      <p><span class="extra">Have a question we couldn't answer on this website?</span> Fill out a contact form and
+         we'll get back to you as soon as possible &#x1f331;
+      </p>
+      <form action="https://httpbin.org/post" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email>">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="message">Message:</label>
+        <textarea name="message" required></textarea>
+        <input type="submit">
+      </form>
+    </main>
+    <footer>
+      © Victoria Plant Shop 2021.
+    </footer>
+  </div>
+</body>
+</html>

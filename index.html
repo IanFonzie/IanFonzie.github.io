@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Home</title>
   <script src="scripts/home.js"></script>
   <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -14,41 +14,59 @@
     <nav>
       <ul>
         <li>
-          <a>Page 1</a>
+          <a href="care.html">Plant Care</a>
         </li>
         <li>
-          <a>Page 2</a>
+          <a href="sales.html">For Sale</a>
         </li>
         <li>
-          <a>Page 3</a>
+          <a href="contact.html">Contact Us</a>
         </li>
       </ul>
     </nav>
   </header>
-  <section>
-    <!-- Slideshow container -->
-    <div id="slideshow">
-
-      <!-- Full-width images with number and caption text -->
-      <div class="feature-slide">
-        <img src="https://via.placeholder.com/150/0000FF/808080" style="width:100%">
-        <div class="text">Caption Text</div>
+  <div id="container">
+    <main id="home">
+      <div id="slideshow">
+        <h2>This Week's Features</h2>
+      
+        <figure class="feature-slide">
+          <img src="images/cala.jpg">
+          <figcaption class="text">Peacock Calathea</figcaption>
+        </figure>
+      
+        <figure class="feature-slide">
+          <img src="images/fig.jpg">
+          <figcaption class="text">"Curly" Weeping Fig Tree</figcaption>
+        </figure>
+  
+        <figure class="feature-slide">
+          <img src="images/hoya.jpg">
+          <figcaption class="text">Krimson Queen Hoya</figcaption>
+        </figure>
+  
+        <figure class="feature-slide">
+          <img src="images/rubber.jpg">
+          <figcaption class="text">Tineke Rubber Tree</figcaption>
+        </figure>
+      
+        <a class="prev" data-direction="-1">&#10094;</a>
+        <a class="next" data-direction="1">&#10095;</a>
       </div>
-    
-      <div class="feature-slide">
-        <img src="https://via.placeholder.com/150/FF0000/FFFFFF" style="width:100%">
-        <div class="text">Caption Two</div>
-      </div>
-    
-      <div class="feature-slide">
-        <img src="https://via.placeholder.com/150/FFFF00/000000" style="width:100%">
-        <div class="text">Caption Three</div>
-      </div>
-    
-      <!-- Next and previous buttons -->
-      <a class="prev" data-direction="-1">&#10094;</a>
-      <a class="next" data-direction="1">&#10095;</a>
-    </div>
-  </section>
+      <article>
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec augue maximus, 
+          scelerisque quam sit amet, interdum urna. Aenean aliquet at ex vitae porta. Nulla 
+          erat ante, tincidunt quis nulla sed, iaculis hendrerit leo. Maecenas sollicitudin 
+          in purus ut venenatis. Integer in ultricies odio. Aliquam erat volutpat. Nullam 
+          aliquet mi sit amet ullamcorper tincidunt. Morbi id turpis mattis, vehicula dolor.
+        </p>
+      </article>
+    </main>
+    <footer>
+      © Victoria Plant Shop 2021.
+    </footer>
+  </div>
 </body>
 </html>
